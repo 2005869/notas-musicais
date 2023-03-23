@@ -6,10 +6,12 @@ authors = ["2005869 <2005869@aluno.univesp.br>"]
 readme = "README.md"
 packages = [{include = "notas_musicais"}]
 
+
 [tool.poetry.dependencies]
 python = "^3.10"
 typer = "^0.7.0"
 rich = "^13.3.2"
+
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.2"
