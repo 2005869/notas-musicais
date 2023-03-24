@@ -1,5 +1,5 @@
 NOTAS = 'C C# D D# E F F# G G# A A# B'.split()
-ESCALAS = {'maior': (0, 2, 4, 5, 7, 9, 11)}
+ESCALAS = {'maior': (0, 2, 4, 5, 7, 9, 11), 'menor': (0, 2, 3, 5, 7, 8, 10)}
 
 
 def escala(tonica, tonalidade):
@@ -16,8 +16,8 @@ def escala(tonica, tonalidade):
     Examples:
         >>> escala('C', 'maior')
         {'notas': ['C', 'D', 'E', 'F', 'G', 'A', 'B'], 'graus': ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII']}
-        >>> escala('a', 'maior')
-        {'notas': ['A', 'B', 'C#', 'D', 'E', 'F#', 'G#'], 'graus': ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII']}
+        >>> escala('A', 'menor')
+        {'notas': ['A', 'B', 'C', 'D', 'E', 'F', 'G'], 'graus': ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII']}
     """
     try:
         tonica = tonica.upper()
