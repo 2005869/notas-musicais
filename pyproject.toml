@@ -8,7 +8,7 @@ packages = [{include = "notas_musicais"}]
 
 
 [tool.poetry.scripts]
-escalas = "notas_musicais.cli:app"
+notas-musicais = "notas_musicais.cli:app"
 
 
 [tool.poetry.dependencies]
